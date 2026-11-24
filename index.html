@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ЕГЭ-Навигатор — где и как готовиться к ЕГЭ эффективно</title>
+  <meta name="description" content="Официальные ресурсы для подготовки к ЕГЭ, сравнение платформ, недельный план и результаты исследования — в одном месте. Без рекламы и лишних трат.">
+  <meta name="theme-color" content="#1e3a8a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ЕГЭ-Навигатор">
+  <meta property="og:description" content="Официальные ресурсы, сравнение платформ и готовый план подготовки к ЕГЭ — в одном месте.">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231e3a8a'/%3E%3Cpath d='M16 6.5l6.2 19-6.2-3.8-6.2 3.8z' fill='%23ffffff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="ЕГЭ-Навигатор — в начало страницы">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="20" height="20" fill="none">
+            <path d="M16 5l6.5 20-6.5-4-6.5 4z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand__text">ЕГЭ-Навигатор</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Открыть меню">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="nav-toggle__label">Меню</span>
+      </button>
+
+      <nav class="nav" id="primaryNav" aria-label="Основная навигация">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">О проекте</a></li>
+          <li><a class="nav__link" href="#resources">Ресурсы</a></li>
+          <li><a class="nav__link" href="#compare">Сравнение</a></li>
+          <li><a class="nav__link" href="#plan">План</a></li>
+          <li><a class="nav__link" href="#results">Результаты</a></li>
+          <li><a class="nav__link nav__link--cta" href="#survey">Анкета</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= 1. Шапка / первый экран ================= -->
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">Индивидуальный проект · 2026</p>
+          <h1 class="hero__title">ЕГЭ-Навигатор</h1>
+          <p class="hero__lead">
+            Где и как готовиться к ЕГЭ эффективно: официальные ресурсы, сравнение платформ
+            и готовый план — в одном месте.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#resources">Смотреть ресурсы</a>
+            <a class="btn btn--ghost" href="#plan">Недельный план</a>
+          </div>
+          <ul class="hero__stats">
+            <li><b>6</b><span>бесплатных ресурсов</span></li>
+            <li><b>4</b><span>платформы в сравнении</span></li>
+            <li><b>7</b><span>дней плана</span></li>
+          </ul>
+        </div>
+
+        <aside class="route" aria-label="Короткий маршрут подготовки">
+          <div class="route__head">
+            <p class="route__kicker">Короткий маршрут</p>
+            <h2 class="route__title">Три шага, которые закрывают базу</h2>
+          </div>
+          <ol class="route__list">
+            <li class="route__step">
+              <span class="route__num" aria-hidden="true">1</span>
+              <div class="route__body">
+                <h3>ФИПИ</h3>
+                <p>Понять структуру экзамена, кодификатор и критерии.</p>
+              </div>
+              <span class="route__tag">0 ₽</span>
+            </li>
+            <li class="route__step">
+              <span class="route__num" aria-hidden="true">2</span>
+              <div class="route__body">
+                <h3>Решу ЕГЭ</h3>
+                <p>Тренироваться каждый день на реальных заданиях.</p>
+              </div>
+              <span class="route__tag">0 ₽</span>
+            </li>
+            <li class="route__step">
+              <span class="route__num" aria-hidden="true">3</span>
+              <div class="route__body">
+                <h3>Пробник</h3>
+                <p>Раз в неделю — полный вариант по времени.</p>
+              </div>
+              <span class="route__tag route__tag--green">контроль</span>
+            </li>
+          </ol>
+          <p class="route__foot">
+            Первые два шага бесплатны. Платить стоит только за то, чего в них нет:
+            объяснение, проверку и дедлайн.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= 2. О проекте ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">О проекте</p>
+          <h2>Проблема не в лени, а в навигации</h2>
+          <p class="section__lead">
+            Выпускники тратят на подготовку десятки тысяч рублей, хотя половина нужных
+            материалов лежит в открытом доступе. Сайт собирает их в одном месте и показывает,
+            за что платить действительно имеет смысл.
+          </p>
+        </header>
+
+        <div class="about__grid">
+          <article class="card card--problem reveal">
+            <span class="card__label">Проблема</span>
+            <h3>Деньги уходят не туда, где не хватает знаний</h3>
+            <p>
+              Многие покупают курсы, не зная, что ФИПИ публикует демоверсии, спецификации,
+              кодификаторы и критерии оценивания бесплатно. А «Решу ЕГЭ» даёт банк заданий
+              с решениями без подписки.
+            </p>
+            <ul class="ticks">
+              <li>Не знают, с чего начать и какие задания вообще будут.</li>
+              <li>Платные курсы продают то, что уже есть в открытом доступе.</li>
+              <li>Дорогой курс не спасает, если нет системы и регулярности.</li>
+            </ul>
+          </article>
+
+          <article class="card card--hypothesis reveal">
+            <span class="card__label card__label--green">Гипотеза</span>
+            <h3>Дешёвая связка работает не хуже дорогой</h3>
+            <p>
+              ФИПИ + «Решу ЕГЭ» + один платный курс для того, что не даётся бесплатно,
+              даёт результат не ниже дорогих курсов при меньших затратах.
+            </p>
+            <div class="formula" role="img" aria-label="Формула: ФИПИ плюс Решу ЕГЭ плюс один платный курс равно результат не ниже дорогих курсов при меньших затратах">
+              <span class="formula__part">ФИПИ</span>
+              <span class="formula__op" aria-hidden="true">+</span>
+              <span class="formula__part">Решу ЕГЭ</span>
+              <span class="formula__op" aria-hidden="true">+</span>
+              <span class="formula__part">1 платный курс</span>
+              <span class="formula__op formula__op--eq" aria-hidden="true">=</span>
+              <span class="formula__part formula__part--accent">результат не ниже дорогих курсов</span>
+            </div>
+          </article>
+        </div>
+
+        <ul class="facts reveal">
+          <li class="fact">
+            <b>0 ₽</b>
+            <span>стоят материалы и критерии ФИПИ</span>
+          </li>
+          <li class="fact">
+            <b>2–5 тыс. ₽</b>
+            <span>типичный чек за месяц платного курса</span>
+          </li>
+          <li class="fact">
+            <b>1 час в день</b>
+            <span>достаточно, если заниматься по системе</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= 3. Ресурсы ================= -->
+    <section class="section section--soft" id="resources">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Ресурсы</p>
+          <h2>Шесть ссылок, с которых стоит начать</h2>
+          <p class="section__lead">
+            Сначала — официальные источники: там структура экзамена и критерии.
+            Потом — тренировка и, если нужно, платные занятия.
+          </p>
+        </header>
+
+        <div class="res-grid">
+          <article class="res-card reveal">
+            <div class="res-card__top">
+              <span class="res-card__badge" aria-hidden="true">Ф</span>
+              <div>
+                <h3 class="res-card__title">ФИПИ</h3>
+                <p class="res-card__meta">fipi.ru</p>
+              </div>
+            </div>
+            <p class="res-card__desc">
+              Официальный источник: демоверсии, спецификации, кодификаторы и критерии
+              оценивания. Здесь же — открытый банк заданий. С этого начинают все.
+            </p>
+            <div class="res-card__tags">
+              <span class="tag tag--free">Бесплатно</span>
+              <span class="tag">Официально</span>
+            </div>
+            <a class="btn btn--card" href="https://fipi.ru" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="res-card reveal">
+            <div class="res-card__top">
+              <span class="res-card__badge" aria-hidden="true">Р</span>
+              <div>
+                <h3 class="res-card__title">Решу ЕГЭ</h3>
+                <p class="res-card__meta">reshuege.ru</p>
+              </div>
+            </div>
+            <p class="res-card__desc">
+              Большой банк заданий с решениями и автоматической проверкой. Удобно
+              отрабатывать конкретные номера и видеть статистику по темам.
+            </p>
+            <div class="res-card__tags">
+              <span class="tag tag--free">Бесплатно</span>
+              <span class="tag">Практика</span>
+            </div>
+            <a class="btn btn--card" href="https://reshuege.ru" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="res-card reveal">
+            <div class="res-card__top">
+              <span class="res-card__badge" aria-hidden="true">Я</span>
+              <div>
+                <h3 class="res-card__title">ЯКласс</h3>
+                <p class="res-card__meta">yaklass.ru</p>
+              </div>
+            </div>
+            <p class="res-card__desc">
+              Тренажёры и короткая теория по школьным темам. Помогает быстро закрыть
+              пробел в конкретном задании, а не повторять весь курс.
+            </p>
+            <div class="res-card__tags">
+              <span class="tag tag--free">Есть бесплатно</span>
+              <span class="tag">Теория</span>
+            </div>
+            <a class="btn btn--card" href="https://yaklass.ru" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="res-card reveal">
+            <div class="res-card__top">
+              <span class="res-card__badge" aria-hidden="true">О</span>
+              <div>
+                <h3 class="res-card__title">Рособрнадзор</h3>
+                <p class="res-card__meta">obrnadzor.gov.ru</p>
+              </div>
+            </div>
+            <p class="res-card__desc">
+              Расписание экзаменов, правила проведения, порядок апелляции и официальные
+              разъяснения. Здесь не готовятся — здесь проверяют факты.
+            </p>
+            <div class="res-card__tags">
+              <span class="tag tag--free">Бесплатно</span>
+              <span class="tag">Официально</span>
+            </div>
+            <a class="btn btn--card" href="https://obrnadzor.gov.ru" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="res-card reveal">
+            <div class="res-card__top">
+              <span class="res-card__badge" aria-hidden="true">F</span>
+              <div>
+                <h3 class="res-card__title">Foxford</h3>
+                <p class="res-card__meta">foxford.ru</p>
+              </div>
+            </div>
+            <p class="res-card__desc">
+              Онлайн-курсы и вебинары с проверкой домашних заданий. Есть бесплатные
+              занятия и материалы — с них удобно понять, нужен ли вам платный формат.
+            </p>
+            <div class="res-card__tags">
+              <span class="tag tag--paid">Платно</span>
+              <span class="tag">Курсы</span>
+            </div>
+            <a class="btn btn--card" href="https://foxford.ru" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="res-card reveal">
+            <div class="res-card__top">
+              <span class="res-card__badge" aria-hidden="true">Е</span>
+              <div>
+                <h3 class="res-card__title">Портал ЕГЭ</h3>
+                <p class="res-card__meta">ege.edu.ru</p>
+              </div>
+            </div>
+            <p class="res-card__desc">
+              Официальный портал: сроки, правила, ответы на частые вопросы и раздел
+              для участников экзамена. Полезно перед подачей заявления.
+            </p>
+            <div class="res-card__tags">
+              <span class="tag tag--free">Бесплатно</span>
+              <span class="tag">Официально</span>
+            </div>
+            <a class="btn btn--card" href="https://ege.edu.ru" target="_blank" rel="noopener noreferrer">
+              Перейти на сайт <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. Сравнение ================= -->
+    <section class="section" id="compare">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Сравнение</p>
+          <h2>Четыре платформы по шести критериям</h2>
+          <p class="section__lead">
+            Бесплатное не значит «слабое», а платное — не всегда «лучше».
+            Смотрите не на цену, а на то, чего вам не хватает.
+          </p>
+        </header>
+
+        <p class="table-hint">Таблица прокручивается в сторону →</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Сравнение платформ, таблица с горизонтальной прокруткой">
+          <table class="compare">
+            <caption class="sr-only">Сравнение ФИПИ, «Решу ЕГЭ», Умскул и Школково по критериям: цена, статус, что даёт, объяснения, минус, кому подойдёт</caption>
+            <thead>
+              <tr>
+                <th scope="col">Критерий</th>
+                <th scope="col">ФИПИ <span class="th-note">официальный</span></th>
+                <th scope="col">Решу ЕГЭ <span class="th-note">бесплатный</span></th>
+                <th scope="col">Умскул <span class="th-note">школа</span></th>
+                <th scope="col">Школково <span class="th-note">школа</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Цена</th>
+                <td><span class="price price--free">Бесплатно</span></td>
+                <td><span class="price price--free">Бесплатно</span><br><small>есть добровольные сборы</small></td>
+                <td><span class="price">~3–5 тыс. ₽/мес</span></td>
+                <td><span class="price">~2–4 тыс. ₽/мес</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Статус</th>
+                <td>Государственный институт</td>
+                <td>Независимый проект</td>
+                <td>Коммерческая школа</td>
+                <td>Коммерческая школа</td>
+              </tr>
+              <tr>
+                <th scope="row">Что даёт</th>
+                <td>Демоверсии, кодификатор, критерии, открытый банк заданий</td>
+                <td>Банк заданий с решениями, проверка ответов, статистика</td>
+                <td>Вебинары, домашние задания, куратор и дедлайны</td>
+                <td>Вебинары, тренажёры, пробники, конспекты</td>
+              </tr>
+              <tr>
+                <th scope="row">Объяснения</th>
+                <td>Критерии и методички, но без разбора задач</td>
+                <td>Пошаговые решения почти к каждому заданию</td>
+                <td>Преподаватель объясняет, можно задать вопрос</td>
+                <td>Видеоразборы и краткие конспекты</td>
+              </tr>
+              <tr>
+                <th scope="row">Минус</th>
+                <td>Не учит — только задаёт правила игры</td>
+                <td>Нет системы и контроля: легко бросить</td>
+                <td>Дорого, темп общий, много времени в эфире</td>
+                <td>Нужна самодисциплина, качество зависит от курса</td>
+              </tr>
+              <tr>
+                <th scope="row">Кому подойдёт</th>
+                <td>Всем — как точка отсчёта</td>
+                <td>Тем, кто может заниматься сам</td>
+                <td>Тем, кому нужен контроль и дедлайн</td>
+                <td>Тем, кому нужна практика за умеренные деньги</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">
+          Цены — ориентировочные на 2026 год и зависят от предмета и тарифа.
+          Уточняйте на сайтах школ.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= 5. План подготовки ================= -->
+    <section class="section section--soft" id="plan">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">План подготовки</p>
+          <h2>Одна неделя, семь понятных дней</h2>
+          <p class="section__lead">
+            Не «заниматься больше», а заниматься по циклу: теория → практика → разбор ошибок.
+            Отмечайте дни — прогресс сохранится в браузере.
+          </p>
+        </header>
+
+        <div class="plan reveal">
+          <div class="plan__head">
+            <div>
+              <h3 class="plan__title">Неделя подготовки</h3>
+              <p class="plan__sub">Один час в день. Воскресенье — половина дня на разбор и отдых.</p>
+            </div>
+            <div class="plan__progress">
+              <span class="plan__count" id="planCount">0 из 7</span>
+              <div class="plan__bar" role="progressbar" aria-valuemin="0" aria-valuemax="7" aria-valuenow="0" aria-labelledby="planCount" id="planBar">
+                <div class="plan__fill" id="planFill"></div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="plan__list" id="planList">
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="mon">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Пн</span>
+                <span class="day__body">
+                  <b>Теория</b>
+                  <span>Разберите одну тему по кодификатору и напишите конспект на полстраницы.</span>
+                </span>
+              </label>
+            </li>
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="tue">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Вт</span>
+                <span class="day__body">
+                  <b>Практика</b>
+                  <span>15–20 заданий по теме в «Решу ЕГЭ». Сразу проверяйте ответы.</span>
+                </span>
+              </label>
+            </li>
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="wed">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Ср</span>
+                <span class="day__body">
+                  <b>Разбор ошибок</b>
+                  <span>Выпишите каждую ошибку и её причину: не знал, невнимательность, не понял условие.</span>
+                </span>
+              </label>
+            </li>
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="thu">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Чт</span>
+                <span class="day__body">
+                  <b>Новая тема</b>
+                  <span>Следующий блок кодификатора: короткая теория и 5 заданий на понимание.</span>
+                </span>
+              </label>
+            </li>
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="fri">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Пт</span>
+                <span class="day__body">
+                  <b>Практика</b>
+                  <span>Смешанный набор заданий из разных тем и с таймером — как на экзамене.</span>
+                </span>
+              </label>
+            </li>
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="sat">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Сб</span>
+                <span class="day__body">
+                  <b>Пробник</b>
+                  <span>Полный вариант по времени, без подсказок и пауз. Запишите баллы.</span>
+                </span>
+              </label>
+            </li>
+            <li class="plan__item">
+              <label class="day">
+                <input class="day__input" type="checkbox" data-day="sun">
+                <span class="day__box" aria-hidden="true"></span>
+                <span class="day__name">Вс</span>
+                <span class="day__body">
+                  <b>Разбор + отдых</b>
+                  <span>Сверьте пробник с критериями ФИПИ, отметьте слабые места и отдохните.</span>
+                </span>
+              </label>
+            </li>
+          </ul>
+
+          <div class="plan__foot">
+            <p class="plan__reset-wrap">
+              <button class="btn btn--link" type="button" id="planReset">Сбросить отметки</button>
+            </p>
+            <p class="plan__tip">Совет: если пропустили день — не начинайте неделю заново, просто продолжайте с места остановки.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. Результаты исследования ================= -->
+    <section class="section" id="results">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Результаты исследования</p>
+          <h2>Что показала анкета</h2>
+          <p class="section__lead">
+            Опрошено 68 выпускников 10–11 классов, март 2026 года. Ответы анонимные.
+            Ниже — главное, что повлияло на структуру сайта.
+          </p>
+        </header>
+
+        <div class="charts">
+          <figure class="chart-card reveal">
+            <figcaption class="chart-card__head">
+              <h3>Знают ли про ФИПИ</h3>
+              <p>Доля ответивших, %</p>
+            </figcaption>
+            <div class="chart-card__box">
+              <canvas id="chartFipi" role="img" aria-label="Кольцевая диаграмма: знают про ФИПИ 38 процентов, слышали но не пользовались 41 процент, не знают 21 процент"></canvas>
+            </div>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <figcaption class="chart-card__head">
+              <h3>Траты на подготовку в месяц</h3>
+              <p>Количество ответивших, человек</p>
+            </figcaption>
+            <div class="chart-card__box">
+              <canvas id="chartMoney" role="img" aria-label="Столбчатая диаграмма трат: 0 рублей — 12 человек, до 2000 рублей — 19, 2000–5000 — 34, 5000–10000 — 23, больше 10000 — 12"></canvas>
+            </div>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <figcaption class="chart-card__head">
+              <h3>Главные трудности</h3>
+              <p>Сколько раз выбрали вариант, %</p>
+            </figcaption>
+            <div class="chart-card__box">
+              <canvas id="chartHard" role="img" aria-label="Горизонтальная диаграмма трудностей: сложно заставить себя — 46 процентов, не знаю с чего начать — 38, не хватает денег — 27, нет понятной проверки — 21"></canvas>
+            </div>
+          </figure>
+
+          <figure class="chart-card reveal">
+            <figcaption class="chart-card__head">
+              <h3>Готовность пользоваться сайтом</h3>
+              <p>Распределение ответов, %</p>
+            </figcaption>
+            <div class="chart-card__box">
+              <canvas id="chartReady" role="img" aria-label="Круговая диаграмма готовности: да — 54 процента, скорее да — 29, скорее нет — 11, нет — 6"></canvas>
+            </div>
+          </figure>
+        </div>
+
+        <div class="findings reveal">
+          <h3 class="findings__title">Что из этого следует</h3>
+          <div class="table-wrap table-wrap--plain">
+            <table class="findings__table">
+              <caption class="sr-only">Ключевые выводы исследования и решения, принятые на сайте</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Вывод</th>
+                  <th scope="col">Решение на сайте</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Вывод">Про ФИПИ знают меньше половины, ещё 41% — только слышали.</td>
+                  <td data-label="Решение">ФИПИ стоит первым в ресурсах и в маршруте: объясняем, что там брать.</td>
+                </tr>
+                <tr>
+                  <td data-label="Вывод">Большинство платит 2–5 тыс. ₽ в месяц за подготовку.</td>
+                  <td data-label="Решение">В сравнении показано, что закрывается бесплатно, а за что платить разумно.</td>
+                </tr>
+                <tr>
+                  <td data-label="Вывод">Главные трудности — начать и не бросить.</td>
+                  <td data-label="Решение">Недельный план с чек-листом: конкретное действие на каждый день.</td>
+                </tr>
+                <tr>
+                  <td data-label="Вывод">8 из 10 готовы пользоваться таким сайтом.</td>
+                  <td data-label="Решение">Всё на одном экране: ресурсы, сравнение, план и проверка фактов.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. Анкета ================= -->
+    <section class="cta" id="survey">
+      <div class="container cta__inner">
+        <div class="cta__text">
+          <p class="eyebrow eyebrow--light">Анкета</p>
+          <h2>Помогите сделать навигатор точнее</h2>
+          <p>Пять вопросов, три минуты, анонимно. Ответы пойдут в исследование, а не в рекламу.</p>
+        </div>
+        <div class="cta__action">
+          <!-- ЗАМЕНИ ссылку ниже на свою форму Google Forms -->
+          <a class="btn btn--green btn--lg" href="https://forms.gle/your-form-id" target="_blank" rel="noopener noreferrer">
+            Пройти анкету <span aria-hidden="true">↗</span>
+          </a>
+          <p class="cta__note">Откроется в новой вкладке</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 8. Подвал ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark brand__mark--sm" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="16" height="16" fill="none">
+            <path d="M16 5l6.5 20-6.5-4-6.5 4z" fill="currentColor"/>
+          </svg>
+        </span>
+        <p>Индивидуальный проект · ЕГЭ-Навигатор · 2026</p>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#about">О проекте</a>
+        <a href="#resources">Ресурсы</a>
+        <a href="#compare">Сравнение</a>
+        <a href="#plan">План</a>
+        <a href="#results">Результаты</a>
+        <a href="#survey">Анкета</a>
+      </nav>
+      <p class="footer__note">
+        Сайт не связан с ФИПИ, Рособрнадзором и перечисленными школами. Ссылки ведут
+        на официальные страницы ресурсов.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/chart.umd.min.js"></script>
+  <script src="assets/chart-data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
